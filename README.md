@@ -12,3 +12,10 @@ x = orders/colors
 r = orders%colors
 gain = (cur + (cur - x) + 1)*(cur - (cur-x))/2 *colors + (cur-x)*r
 ```
+### 417
+#### thought:
+- Check the end condition carefully when using recersion.
+- The initialization of vector
+```=cpp
+vector<vector<bool>> Pacific(m, vector<bool>(n, false));
+```
