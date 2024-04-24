@@ -19,3 +19,8 @@ gain = (cur + (cur - x) + 1)*(cur - (cur-x))/2 *colors + (cur-x)*r
 ```=cpp
 vector<vector<bool>> Pacific(m, vector<bool>(n, false));
 ```
+
+### 198
+#### optimize
+![image](https://github.com/billy122333/LeetCode_Practice/assets/75492436/04ff8d53-ef15-47ff-9acb-66625f76266f)
+- a easy DP.
