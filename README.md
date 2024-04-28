@@ -24,3 +24,12 @@ vector<vector<bool>> Pacific(m, vector<bool>(n, false));
 #### optimize
 ![image](https://github.com/billy122333/LeetCode_Practice/assets/75492436/04ff8d53-ef15-47ff-9acb-66625f76266f)
 - a easy DP.
+
+### 19
+
+#### Thought
+- Can new a point in front of the linked list.
+- Be careful when returning, sometimes not just return the head.
+```=cpp
+return dummy->next;
+```
