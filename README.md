@@ -33,3 +33,10 @@ vector<vector<bool>> Pacific(m, vector<bool>(n, false));
 ```=cpp
 return dummy->next;
 ```
+
+### 211. Design Add and Search Words Data Structure
+
+#### Thought
+- Trie Tree to build a string search tree
+- Use ASCLL Code to find the correct alphabet quickly.
+- Use recursion.
