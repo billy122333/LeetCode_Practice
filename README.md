@@ -43,5 +43,23 @@ return dummy->next;
 
 ### 165. Compare Version Numbers
 - When encounter compare problem, can condiser **Two Pointer** first.
-- ***Always check if the array or vector out of order, EVEN IF IN A WHILE OR IF.*
-- The sequential order is also important.
+- **Always check if the array or vector out of order, EVEN IF IN A WHILE OR IF.*
+- The sequential order in a while loop are also important.
+""" =cpp
+# correct
+while(s1_pt < s1 || s2_pt < s2){
+# This would check the pointer first, so version1[s1_pt] will not be check when it is out of range 
+  while(s1_pt < s1 && version1[s1_pt] != '.' ){
+      num1 = 10*num1 + (version1[s1_pt] - '0');
+      s1_pt++;
+  }
+}
+# TLE ERROR
+while(s1_pt < s1 || s2_pt < s2){
+# This would not check the pointer first, so version1[s1_pt] will be out of range 
+  while(version1[s1_pt] != '.' && s1_pt < s1){
+      num1 = 10*num1 + (version1[s1_pt] - '0');
+      s1_pt++;
+  }
+}
+"""
