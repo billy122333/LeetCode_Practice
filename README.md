@@ -45,7 +45,7 @@ return dummy->next;
 - When encounter compare problem, can condiser **Two Pointer** first.
 - **Always check if the array or vector out of order, EVEN IF IN A WHILE OR IF.*
 - The sequential order in a while loop are also important.
-``` =cpp
+```=cpp
 # correct
 while(s1_pt < s1 || s2_pt < s2){
 # This would check the pointer first, so version1[s1_pt] will not be check when it is out of range 
