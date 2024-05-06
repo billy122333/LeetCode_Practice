@@ -40,3 +40,8 @@ return dummy->next;
 - Trie Tree to build a string search tree
 - Use ASCLL Code to find the correct alphabet quickly.
 - Use recursion.
+
+### 165. Compare Version Numbers
+- When encounter compare problem, can condiser **Two Pointer** first.
+- ***Always check if the array or vector out of order, EVEN IF IN A WHILE OR IF.*
+- The sequential order is also important.
