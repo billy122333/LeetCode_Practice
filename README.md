@@ -63,3 +63,21 @@ while(s1_pt < s1 || s2_pt < s2){
   }
 }
 ```
+
+### 506. Relative Ranks
+- Use priority queue and pair to get the fixed position for all the rank.
+- initialize the vector fisrt.
+
+### 2487. Remove Nodes From Linked List
+- Monotonic stack or even stack is OK.
+- Reverse the linked list.
+```=cpp
+ListNode *cur=head, *prev = nullptr;
+while(cur!=nullptr){
+  // 將current的下一個換成上一個node
+  swap(cur->next , prev);
+  // 換回來繼續下一個動作
+  swap(cur, prev);
+}
+```
+
