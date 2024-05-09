@@ -81,3 +81,6 @@ while(cur!=nullptr){
 }
 ```
 
+### 3075. Maximize Happiness of Selected Children
+- Greedy
+
