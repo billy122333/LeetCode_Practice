@@ -3,10 +3,22 @@
 ## Two pointer
 ## Sliding window
 ## Binary search
+#### 378. Kth Smallest Element in a Sorted Matrix
+- Binary search 的特殊應用
+1. 先用binary search找出min max的中間值
+2. 使用helper function 找出這個 mid 在這個matrix中的是第幾小的數字
+3. 若helper 找到的 position
+  - 大於要找的第K大的元素，代表target要再更小，所以max = mid。
+  - 小於要找的第K大的元素，代表target要再更大，所以min = mid+1。
+4. 一定要找到底，因為mid不一定存在於陣列中。
+[解題參考](https://anj910.medium.com/leetcode-378-kth-smallest-element-in-a-sorted-matrix-%E4%B8%AD%E6%96%87-318d52f366af)
+
 ## Hash
 ## Priority Queue -> heap
 ## Gready
 ## DP
+## stack
+- 別忘了使用Stack當需要倒序的時候
 ### 1648
 ![image](https://user-images.githubusercontent.com/75492436/155433701-31f06d09-bf95-4b08-95f9-f2dfc75f5eca.png)
 ```
@@ -90,12 +102,4 @@ while(cur!=nullptr){
 
 ### 3075. Maximize Happiness of Selected Children
 - Greedy
-#### 378. Kth Smallest Element in a Sorted Matrix
-- Binary search 的特殊應用
-1. 先用binary search找出min max的中間值
-2. 使用helper function 找出這個 mid 在這個matrix中的是第幾小的數字
-3. 若helper 找到的 position
-  - 大於要找的第K大的元素，代表target要再更小，所以max = mid。
-  - 小於要找的第K大的元素，代表target要再更大，所以min = mid+1。
-4. 一定要找到底，因為mid不一定存在於陣列中。
-[解題參考](https://anj910.medium.com/leetcode-378-kth-smallest-element-in-a-sorted-matrix-%E4%B8%AD%E6%96%87-318d52f366af)
+
