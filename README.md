@@ -103,3 +103,5 @@ while(cur!=nullptr){
 ### 3075. Maximize Happiness of Selected Children
 - Greedy
 
+### 1863. Sum of All Subset XOR Totals
+- Use backtracking to [include, exclude] the element into the subset.
