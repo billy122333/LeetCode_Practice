@@ -105,3 +105,5 @@ while(cur!=nullptr){
 
 ### 1863. Sum of All Subset XOR Totals
 - Use backtracking to [include, exclude] the element into the subset.
+### 78. subset
+- Use backtracking to store all the subset.
