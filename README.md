@@ -107,3 +107,10 @@ while(cur!=nullptr){
 - Use backtracking to [include, exclude] the element into the subset.
 ### 78. subset
 - Use backtracking to store all the subset.
+
+### 1608. Special Array With X Elements Greater Than or Equal X
+- 先倒序排列
+- 第i個element就是第i-1大的
+- 若 nums[m] > m 則有太多數字 比m大 需要找更大的m
+- nums[m] < m 則是往m小的逼近去找是否有重複的數
+- 最終return 若nums[m] > m 代表m要再大一點
