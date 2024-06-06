@@ -114,3 +114,7 @@ while(cur!=nullptr){
 - 若 nums[m] > m 則有太多數字 比m大 需要找更大的m
 - nums[m] < m 則是往m小的逼近去找是否有重複的數
 - 最終return 若nums[m] > m 代表m要再大一點
+
+### 2486 Append Characters to String to Make Subsequence
+- 找A 要補多少字在最後才能包含B字串
+- 標準的two pointer
