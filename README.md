@@ -118,3 +118,9 @@ while(cur!=nullptr){
 ### 2486 Append Characters to String to Make Subsequence
 - 找A 要補多少字在最後才能包含B字串
 - 標準的two pointer
+
+### 1122. Relative Sort Array
+- counting sort
+
+### 945. Minimum Increment to Make Array Unique
+- 只要sort以後就很簡單了
