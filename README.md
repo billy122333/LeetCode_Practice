@@ -124,3 +124,7 @@ while(cur!=nullptr){
 
 ### 945. Minimum Increment to Make Array Unique
 - 只要sort以後就很簡單了
+
+### 75. Sort Colors
+- fill(start, end, fill_number);
+- Counting sort.
