@@ -13,6 +13,9 @@
 4. 一定要找到底，因為mid不一定存在於陣列中。
 [解題參考](https://anj910.medium.com/leetcode-378-kth-smallest-element-in-a-sorted-matrix-%E4%B8%AD%E6%96%87-318d52f366af)
 
+#### 1552. Magnetic Force Between Two Balls
+1. 用BS找適合的間距，最小為0, 最大為陣列最大-最小
+2. 使用helper function幫助確認這個間距是否放得下
 ## Hash
 ## Priority Queue -> heap
 ## Gready
