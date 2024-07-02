@@ -22,6 +22,10 @@
 ## DP
 ## stack
 - 別忘了使用Stack當需要倒序的時候
+## DFS
+### 79. Word Search
+- 很暴力的DFS
+_________________________________
 ### 1648
 ![image](https://user-images.githubusercontent.com/75492436/155433701-31f06d09-bf95-4b08-95f9-f2dfc75f5eca.png)
 ```
