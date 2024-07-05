@@ -20,6 +20,10 @@
 ## Priority Queue -> heap
 ## Gready
 ## DP
+### 53. Maximum Subarray
+- DP設計須包含最後一個元素
+### 55. Jump Game
+- 須注意前幾項是否都可以由dp處理，否則需要一些額外處理
 ## stack
 - 別忘了使用Stack當需要倒序的時候
 ## DFS
