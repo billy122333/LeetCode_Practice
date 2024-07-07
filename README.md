@@ -24,6 +24,8 @@
 - DP設計須包含最後一個元素
 ### 55. Jump Game
 - 須注意前幾項是否都可以由dp處理，否則需要一些額外處理
+### 1143. Longest Common Subsequence
+- 經典的二維矩陣dp
 ## stack
 - 別忘了使用Stack當需要倒序的時候
 ## DFS
