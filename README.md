@@ -31,6 +31,12 @@
 ## DFS
 ### 79. Word Search
 - 很暴力的DFS
+
+### 152. Maximum Product Subarray
+- 特殊處理遇到負數時
+- 使用float來避免overflow
+  ![image](https://github.com/user-attachments/assets/f0e9d057-4299-4a9f-9d22-1073b4904c2c)
+
 _________________________________
 ### 1648
 ![image](https://user-images.githubusercontent.com/75492436/155433701-31f06d09-bf95-4b08-95f9-f2dfc75f5eca.png)
