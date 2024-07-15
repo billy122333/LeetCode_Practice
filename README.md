@@ -1,6 +1,9 @@
 # LeetCode_Practice
 
 ## Two pointer
+#### 143. Reorder List
+- Two pointer直接重新排列值
+- 不用綁死在Node與Val上
 ## Sliding window
 ## Binary search
 #### 378. Kth Smallest Element in a Sorted Matrix
