@@ -34,7 +34,11 @@
 ## DFS
 ### 79. Word Search
 - 很暴力的DFS
-
+### 235. Lowest Common Ancestor of a Binary Search Tree
+- 注意他是BST，很簡單的遞迴尋找就可以了
+### 207. Course Schedule
+- cycle detection
+- 用三種數字紀錄，0為尚未visit，1為此次課程循環有經過，2為確定可以修課同visited
 ### 152. Maximum Product Subarray
 - 特殊處理遇到負數時
 - 使用float來避免overflow
