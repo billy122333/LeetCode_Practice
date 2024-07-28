@@ -29,8 +29,12 @@
 - 須注意前幾項是否都可以由dp處理，否則需要一些額外處理
 ### 1143. Longest Common Subsequence
 - 經典的二維矩陣dp
+
+### 647. Palindromic Substrings
+- 使用二維布林陣列，紀錄第幾個字母到第幾個字母是不是倒裝
+- 分成單個字母，兩個字，三個字以上
 ## stack
-- 別忘了使用Stack當需要倒序的時候
+- 別忘了使用Stack，當需要倒序的時候
 ## DFS
 ### 79. Word Search
 - 很暴力的DFS
@@ -43,7 +47,11 @@
 - 特殊處理遇到負數時
 - 使用float來避免overflow
   ![image](https://github.com/user-attachments/assets/f0e9d057-4299-4a9f-9d22-1073b4904c2c)
+### 98. Validate Binary Search Tree
+- 紀錄最大最小Node就好
+- 需自行修改輸入參數
 
+### 
 _________________________________
 ### 1648
 ![image](https://user-images.githubusercontent.com/75492436/155433701-31f06d09-bf95-4b08-95f9-f2dfc75f5eca.png)
