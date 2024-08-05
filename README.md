@@ -33,6 +33,9 @@
 ### 647. Palindromic Substrings
 - 使用二維布林陣列，紀錄第幾個字母到第幾個字母是不是倒裝
 - 分成單個字母，兩個字，三個字以上
+### 139.Word Break
+- start 和 bool陣列來找出所有可能性
+- dp第一格給true 是沒字母的時候
 ## stack
 - 別忘了使用Stack，當需要倒序的時候
 ## DFS
