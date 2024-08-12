@@ -20,6 +20,8 @@
 1. 用BS找適合的間距，最小為0, 最大為陣列最大-最小
 2. 使用helper function幫助確認這個間距是否放得下
 ## Hash
+#### 128. Longest Consecutive Sequence
+- 使用unorder_map來設定是否為開頭
 ## Priority Queue -> heap
 #### 703. Kth Largest Element in a Stream
 - 觀察大數小數add之後，個別的變化，只記錄需要的數字。
