@@ -21,6 +21,8 @@
 2. 使用helper function幫助確認這個間距是否放得下
 ## Hash
 ## Priority Queue -> heap
+#### 703. Kth Largest Element in a Stream
+- 觀察大數小數add之後，個別的變化，只記錄需要的數字。
 ## Gready
 ## DP
 ### 53. Maximum Subarray
