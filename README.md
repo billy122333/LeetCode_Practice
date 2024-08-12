@@ -4,8 +4,14 @@
 #### 143. Reorder List
 - Two pointer直接重新排列值
 - 不用綁死在Node與Val上
+
+--------------------------------------
 ## Sliding window
+
+--------------------------------------
 ## Binary search
+
+--------------------------------------
 #### 378. Kth Smallest Element in a Sorted Matrix
 - Binary search 的特殊應用
 1. 先用binary search找出min max的中間值
@@ -19,13 +25,21 @@
 #### 1552. Magnetic Force Between Two Balls
 1. 用BS找適合的間距，最小為0, 最大為陣列最大-最小
 2. 使用helper function幫助確認這個間距是否放得下
+
+--------------------------------------
 ## Hash
 #### 128. Longest Consecutive Sequence
 - 使用unorder_map來設定是否為開頭
+
+--------------------------------------
 ## Priority Queue -> heap
 #### 703. Kth Largest Element in a Stream
 - 觀察大數小數add之後，個別的變化，只記錄需要的數字。
+
+--------------------------------------
 ## Gready
+
+--------------------------------------
 ## DP
 ### 53. Maximum Subarray
 - DP設計須包含最後一個元素
@@ -40,8 +54,12 @@
 ### 139.Word Break
 - start 和 bool陣列來找出所有可能性
 - dp第一格給true 是沒字母的時候
+  
+--------------------------------------
 ## stack
 - 別忘了使用Stack，當需要倒序的時候
+
+--------------------------------------
 ## DFS
 ### 79. Word Search
 - 很暴力的DFS
@@ -58,6 +76,12 @@
 - 紀錄最大最小Node就好
 - 需自行修改輸入參數
 
+--------------------------------------
+## Union find
+#### 1971. Find if Path Exists in Graph
+- 很硬要的使用union find 本來應該DFS就可以了
+- 記住return時，要去find source and destinaiton
+--------------------------------------
 ### 
 _________________________________
 ### 1648
