@@ -10,7 +10,17 @@
 
 --------------------------------------
 ## Binary search
+#### 2271.Maximum White Tiles Covered by a Carpet
+- 用interval的start sort.
+- 用for 迴圈把Carpet分別對齊每一個的start試試看
+- 使用binary search找到end不小於 target長度的Carpet(其他都被我包含住了)
+- 然後確認他carpet覆蓋到多少最後一條的長度 加進去
 
+#### 300. Longest Increasing Subsequence
+- 方法1 純粹的DP dp[i]代表以i為為subsequence尾巴的子集合，跟每一個前面的數字比，若比他們大就把i接上去。
+- 方法2 binary search的方法
+  - 若後一個數字>當前sub的最後一個數字 加入sub(代表可以擴展)
+  - 若後一個數字<當前sub的最後一個數字 binary search找他應該在陣列中的位置。我們希望保持 sub 的長度不變，但有潛力在未來構建更長的遞增子序列。
 --------------------------------------
 #### 378. Kth Smallest Element in a Sorted Matrix
 - Binary search 的特殊應用
