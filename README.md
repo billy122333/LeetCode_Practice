@@ -36,6 +36,10 @@
 1. 用BS找適合的間距，最小為0, 最大為陣列最大-最小
 2. 使用helper function幫助確認這個間距是否放得下
 
+#### 153. Find Minimum in Rotated Sorted Array
+1. mid跟左右比，看是否rotated
+2. left && right 要不要+1 取決於有沒有可能是我的答案
+
 --------------------------------------
 ## Hash
 #### 128. Longest Consecutive Sequence
