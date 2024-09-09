@@ -8,7 +8,7 @@
 ### 39. Combination Sum
 - If wanted to reuse the numbers, set ending condition but not recursive i+1 to next stage.
 ```=cpp
-subset(ans, candidates, cur, i, target-candidates[i]);
+subset(ans, candidates, cur, ~~i+1~~);
 ```
 
 ## Two pointer
