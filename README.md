@@ -7,7 +7,7 @@
 - Use backtracking to store all the subset.
 ### 39. Combination Sum
 - If wanted to reuse the numbers, set ending condition but not recursive i+1 to next stage.
-- subset(ans, candidates, cur, i~~+1~~);
+- subset(ans, candidates, cur, i ~~+1~~);
 
 
 ## Two pointer
