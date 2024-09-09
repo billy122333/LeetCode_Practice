@@ -20,6 +20,9 @@
 
 --------------------------------------
 ## Binary search
+#### 33. Search in Rotated Sorted Array
+- Rotated sorted array要記得把mid 跟 left right比，來確認哪一邊是正確的資料。
+
 #### 2271.Maximum White Tiles Covered by a Carpet
 - 用interval的start sort.
 - 用for 迴圈把Carpet分別對齊每一個的start試試看
