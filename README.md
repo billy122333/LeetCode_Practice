@@ -1,5 +1,16 @@
 # LeetCode_Practice
 
+## Back tracking
+### 1863. Sum of All Subset XOR Totals
+- Use backtracking to [include, exclude] the element into the subset.
+### 78. subset
+- Use backtracking to store all the subset.
+### 39. Combination Sum
+- If wanted to reuse the numbers, set ending condition but not recursive i+1 to next stage.
+```=cpp
+subset(ans, candidates, cur, i, target-candidates[i]);
+```
+
 ## Two pointer
 #### 143. Reorder List
 - Two pointer直接重新排列值
@@ -181,11 +192,6 @@ while(cur!=nullptr){
 
 ### 3075. Maximize Happiness of Selected Children
 - Greedy
-
-### 1863. Sum of All Subset XOR Totals
-- Use backtracking to [include, exclude] the element into the subset.
-### 78. subset
-- Use backtracking to store all the subset.
 
 ### 1608. Special Array With X Elements Greater Than or Equal X
 - 先倒序排列
