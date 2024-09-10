@@ -1,5 +1,6 @@
 # LeetCode_Practice
-
+## Math
+- 矩陣旋轉，先換對角線，再將row reverse.
 ## Back tracking
 ### 1863. Sum of All Subset XOR Totals
 - Use backtracking to [include, exclude] the element into the subset.
