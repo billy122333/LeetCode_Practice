@@ -3,6 +3,11 @@
 #### 48. Rotate Image
 - 矩陣旋轉，先換對角線，再將row reverse.
 ## Back tracking
+## Hash table
+- 會用map
+- map不存在會自動創建
+- 記得first&second
+
 ### 1863. Sum of All Subset XOR Totals
 - Use backtracking to [include, exclude] the element into the subset.
 ### 78. subset
