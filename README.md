@@ -1,4 +1,10 @@
 # LeetCode_Practice
+
+## Merge Interval
+#### 56. Merge Intervals
+- prev[1] >= cur[0] merge
+- use max to find the max intervals.
+
 ## Math
 #### 48. Rotate Image
 - 矩陣旋轉，先換對角線，再將row reverse.
@@ -215,6 +221,9 @@ while(cur!=nullptr){
 
 ### 1122. Relative Sort Array
 - counting sort
+### 54. Spiral Matrix
+- 不在上述，但要注意if else條件式
+- Believe yourself
 
 ### 945. Minimum Increment to Make Array Unique
 - 只要sort以後就很簡單了
